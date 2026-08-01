@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Reinstall Google Chrome
+Comment=Uninstalls and freshly reinstalls Google Chrome
+Exec=x-terminal-emulator -e bash -c "$HOME/reinstall_chrome.sh; echo; read -p 'Press Enter to close...'"
+Icon=google-chrome
+Terminal=false
+Categories=Utility;
